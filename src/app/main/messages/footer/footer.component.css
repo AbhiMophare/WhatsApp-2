@@ -2,6 +2,27 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   height: 4rem;
   background-color: #f0f2f5;
+}
+.smily {
+  background-color: yellow;
+  width: 3rem;
+  height: 3rem;
+}
+.plus {
+  background-color: greenyellow;
+  width: 3rem;
+  height: 3rem;
+}
+.message {
+  background-color: burlywood;
+  width: 48rem;
+  height: 3rem;
+}
+.speaker {
+  background-color: yellow;
+  width: 3rem;
+  height: 3rem;
 }
