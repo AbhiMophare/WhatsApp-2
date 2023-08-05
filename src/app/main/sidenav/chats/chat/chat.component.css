@@ -31,6 +31,10 @@
   background-color: greenyellow;
   height: 55%;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 .recent {
   background-color: rebeccapurple;
