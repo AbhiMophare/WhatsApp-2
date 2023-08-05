@@ -35,7 +35,18 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 0 0.8rem;
 }
+.p-name {
+  font-weight: 200;
+  font-size: large;
+}
+p-time {
+  color: #1fa855;
+  font-weight: 100;
+  font-size: smaller;
+}
+
 .recent {
   background-color: rebeccapurple;
   height: 45%;
