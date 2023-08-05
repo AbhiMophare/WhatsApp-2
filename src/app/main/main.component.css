@@ -19,13 +19,12 @@
   flex-direction: column;
   width: calc(93rem - 67.5%);
   height: 43rem;
-  margin: auto;
+  overflow: auto;
 }
 .messages {
   display: flex;
   flex-direction: column;
   width: calc(93rem - 32.5%);
   height: 43rem;
-  margin: auto;
   border: 1px solid black;
 }
