@@ -23,6 +23,7 @@
   border: transparent;
   background-color: #f0f2f5;
   color: #666;
+  font-size: 1.2rem;
 }
 .input-container > input:focus {
   outline: none;
@@ -36,4 +37,5 @@
   background-color: red;
   width: 2rem;
   height: 2rem;
+  /* padding: 0.5rem; */
 }
