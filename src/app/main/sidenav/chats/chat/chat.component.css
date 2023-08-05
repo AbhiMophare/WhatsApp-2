@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+  /* background-color: aqua; */
   width: 29rem;
   height: 4.5rem;
   margin-top: 2px;
@@ -15,8 +15,8 @@
   align-items: center;
   width: 15%;
   height: 4rem;
-  background-color: red;
-  padding: 0.5rem;
+  /* background-color: red; */
+  padding: 0.2rem;
 }
 .details {
   display: flex;
@@ -25,11 +25,11 @@
   align-items: flex-start;
   width: 85%;
   height: 4rem;
-  background-color: blue;
+  /* background-color: blue; */
 }
 .name {
-  background-color: greenyellow;
-  height: 55%;
+  /* background-color: greenyellow; */
+  height: 50%;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -38,17 +38,33 @@
   padding: 0 0.8rem;
 }
 .p-name {
-  font-weight: 200;
-  font-size: large;
+  font-size: 1.1rem;
 }
-p-time {
+.p-time {
+  font-size: 0.8rem;
   color: #1fa855;
-  font-weight: 100;
-  font-size: smaller;
 }
-
 .recent {
-  background-color: rebeccapurple;
-  height: 45%;
+  /* background-color: rebeccapurple; */
+  height: 50%;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 0.8rem;
+}
+.message {
+  font-size: 0.9rem;
+  color: #667781;
+}
+.count {
+  font-size: 0.8rem;
+  background-color: #25d366;
+  border-radius: 10px;
+  width: fit-content;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  font-weight: bold;
 }
