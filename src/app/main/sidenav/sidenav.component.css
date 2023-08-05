@@ -11,6 +11,6 @@
   border: 1px solid black;
 } */
 .chats {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: clac(43rem - 6.2rem);
 }

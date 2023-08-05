@@ -1,5 +1,5 @@
 .container {
-  background-image: url('/assets/jpg/main-background.jpg');
+  background-image: url('https://github.com/AbhiMophare/project-images/blob/main/main-background.jpg?raw=true');
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -13,6 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 2px 2px 3px rgba(7, 7, 7, 0.3);
 }
 .side {
   display: flex;
