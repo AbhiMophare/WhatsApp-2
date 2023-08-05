@@ -1,0 +1,31 @@
+.container {
+  background-image: url('/assets/jpg/main-background.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.main {
+  width: 93rem;
+  height: 43rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.side {
+  display: flex;
+  flex-direction: column;
+  width: calc(93rem - 67.5%);
+  height: 43rem;
+  margin: auto;
+}
+.messages {
+  display: flex;
+  flex-direction: column;
+  width: calc(93rem - 32.5%);
+  height: 43rem;
+  margin: auto;
+  border: 1px solid black;
+}
