@@ -6,3 +6,14 @@
   align-items: center;
   height: 3.5rem;
 }
+.avatar {
+  background-color: blue;
+  flex-basis: 20%;
+}
+img {
+  height: 100%;
+}
+.menus {
+  background-color: brown;
+  flex-basis: 80%;
+}
