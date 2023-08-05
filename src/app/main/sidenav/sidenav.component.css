@@ -3,6 +3,7 @@
   flex-direction: column;
   /* background-color: #f0f2f5; */
   height: 43rem;
+  border-right: 2px solid #ccc;
 }
 /* .header {
   border: 1px solid black;

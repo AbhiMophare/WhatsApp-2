@@ -26,5 +26,5 @@
   flex-direction: column;
   width: calc(93rem - 32.5%);
   height: 43rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
