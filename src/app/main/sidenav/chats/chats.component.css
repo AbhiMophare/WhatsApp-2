@@ -4,6 +4,18 @@
   background-color: blueviolet;
   justify-content: center;
   align-items: center;
+  height: 36.8rem;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: scroll;
+}
+.scroll::-webkit-scrollbar {
+  width: 5px;
+}
+.scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(163, 163, 163, 0.3);
+  border-radius: 5px;
+}
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  box-shadow: inset 0 0 6px rgb(166, 166, 166);
 }
