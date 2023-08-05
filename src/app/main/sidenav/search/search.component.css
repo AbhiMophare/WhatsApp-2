@@ -1,8 +1,28 @@
 .container {
   display: flex;
   flex-direction: row;
-  background-color: aqua;
+  /* background-color: aqua; */
   justify-content: center;
   align-items: center;
   height: 2.8rem;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 2rem;
+  background-color: red;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+.sort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 2rem;
+  background-color: red;
 }
