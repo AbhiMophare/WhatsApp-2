@@ -4,5 +4,6 @@
   background-color: blueviolet;
   justify-content: center;
   align-items: center;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
