@@ -19,7 +19,6 @@
   flex-direction: column;
   width: calc(93rem - 67.5%);
   height: 43rem;
-  overflow: auto;
 }
 .messages {
   display: flex;
