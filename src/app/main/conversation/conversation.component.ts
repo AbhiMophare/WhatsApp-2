@@ -6,9 +6,9 @@ import { MessageHeaderComponent } from './message-header/message-header.componen
 
 @Component({
   standalone: true,
-  selector: 'app-messages',
-  templateUrl: './messages.component.html',
-  styleUrls: ['./messages.component.css'],
+  selector: 'app-conversation',
+  templateUrl: './conversation.component.html',
+  styleUrls: ['./conversation.component.css'],
   imports: [
     FooterComponent,
     MessageAreaComponent,
@@ -16,7 +16,7 @@ import { MessageHeaderComponent } from './message-header/message-header.componen
     CommonModule,
   ],
 })
-export class MessagesComponent implements OnInit {
+export class ConversationComponent implements OnInit {
   conversationStarted: boolean = true;
   constructor() {}
 

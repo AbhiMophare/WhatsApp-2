@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MessagesComponent } from './messages/messages.component';
+import { ConversationComponent } from './conversation/conversation.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 
 @Component({
@@ -7,7 +7,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
   selector: 'app-main',
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.css'],
-  imports: [SidenavComponent, MessagesComponent],
+  imports: [SidenavComponent, ConversationComponent],
 })
 export class MainComponent implements OnInit {
   constructor() {}
