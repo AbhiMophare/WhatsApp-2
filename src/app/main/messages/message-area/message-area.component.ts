@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { InoutmsgComponent } from './inoutmsg/inoutmsg.component';
 
@@ -6,7 +7,7 @@ import { InoutmsgComponent } from './inoutmsg/inoutmsg.component';
   selector: 'app-message-area',
   templateUrl: './message-area.component.html',
   styleUrls: ['./message-area.component.css'],
-  imports: [InoutmsgComponent],
+  imports: [InoutmsgComponent, CommonModule],
 })
 export class MessageAreaComponent implements OnInit {
   constructor() {}

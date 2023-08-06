@@ -6,6 +6,7 @@
   background-color: #f0f2f5;
   height: 3.5rem;
   padding: 1rem;
+  border-bottom: 1px solid #ccc;
 }
 .user {
   display: flex;

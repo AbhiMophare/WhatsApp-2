@@ -6,6 +6,7 @@
   align-items: center;
   height: 3.5rem;
   padding: 1rem;
+  border-bottom: 1px solid #ccc;
 }
 .avatar {
   /* background-color: blue; */

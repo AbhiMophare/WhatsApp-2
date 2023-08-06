@@ -1,7 +1,36 @@
 .container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   height: 36rem;
+  background-color: rgb(252, 252, 252);
+}
+
+.msgcontainer {
+  display: flex;
+  flex-direction: row;
+
+  padding: 0.5rem;
+  margin: 2rem;
+}
+.inoutmsg {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.align {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  min-width: 20%;
+  max-width: 60%;
+}
+.inmsg {
+  background-color: aqua;
+  justify-content: flex-end;
+}
+.outmsg {
   background-color: white;
+  justify-content: flex-start;
 }
