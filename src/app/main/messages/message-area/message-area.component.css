@@ -5,6 +5,8 @@
   align-items: center;
   height: 36rem;
   background-color: rgb(252, 252, 252);
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 .container::-webkit-scrollbar {
   width: 5px;
